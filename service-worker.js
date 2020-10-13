@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/livescore/precache-manifest.9dc6068e7c98e3f7c5f9887c481b945d.js"
+  "/livescore/precache-manifest.f3715877a1a7243f269ec7ac35021fa5.js"
 );
 
 self.addEventListener('message', (event) => {
