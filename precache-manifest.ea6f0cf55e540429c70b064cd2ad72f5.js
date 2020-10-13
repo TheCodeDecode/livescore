@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "31ea31caac4c2e25a1bec1cfc87454f4",
+    "revision": "4d74de0fbd25fe109ec042abeafa0b5d",
     "url": "/livescore/index.html"
   },
   {
