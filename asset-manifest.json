@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/livescore/static/css/main.b8e5555f.chunk.css",
-    "main.js": "/livescore/static/js/main.ec310df9.chunk.js",
-    "main.js.map": "/livescore/static/js/main.ec310df9.chunk.js.map",
+    "main.js": "/livescore/static/js/main.80df2c95.chunk.js",
+    "main.js.map": "/livescore/static/js/main.80df2c95.chunk.js.map",
     "runtime-main.js": "/livescore/static/js/runtime-main.1368b367.js",
     "runtime-main.js.map": "/livescore/static/js/runtime-main.1368b367.js.map",
     "static/css/2.8aa5a7f8.chunk.css": "/livescore/static/css/2.8aa5a7f8.chunk.css",
     "static/js/2.02de035f.chunk.js": "/livescore/static/js/2.02de035f.chunk.js",
     "static/js/2.02de035f.chunk.js.map": "/livescore/static/js/2.02de035f.chunk.js.map",
     "index.html": "/livescore/index.html",
-    "precache-manifest.2715b069ae12fc86768946cb98640808.js": "/livescore/precache-manifest.2715b069ae12fc86768946cb98640808.js",
+    "precache-manifest.d893b088dbb135e40e507f2e1806e34d.js": "/livescore/precache-manifest.d893b088dbb135e40e507f2e1806e34d.js",
     "service-worker.js": "/livescore/service-worker.js",
     "static/css/2.8aa5a7f8.chunk.css.map": "/livescore/static/css/2.8aa5a7f8.chunk.css.map",
     "static/css/main.b8e5555f.chunk.css.map": "/livescore/static/css/main.b8e5555f.chunk.css.map",
@@ -21,6 +21,6 @@
     "static/css/2.8aa5a7f8.chunk.css",
     "static/js/2.02de035f.chunk.js",
     "static/css/main.b8e5555f.chunk.css",
-    "static/js/main.ec310df9.chunk.js"
+    "static/js/main.80df2c95.chunk.js"
   ]
 }
