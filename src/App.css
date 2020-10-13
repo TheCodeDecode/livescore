@@ -1,38 +1,178 @@
-.App {
+* {
+  padding: 0;
+  margin: 0;
+}
+body * {
+}
+
+body {
+  background: rgb(236 241 245);
+}
+.card {
+  width: 100%;
+  background: #fff;
+  border-radius: 5px;
+  box-shadow: 0px 2px 3px -1px rgba(151, 171, 187, 0.7);
+  float: left;
+  transform-style: preserve-3d;
+  margin: 10px 5px;
+}
+.background_cover div:nth-child(0) {
+  display: none;
+}
+.VsImage img {
+  max-height: 200px;
+}
+.background_cover div {
+  display: block;
+  width: 100%;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.teamName p {
+  text-transform: uppercase;
+  font-weight: 700;
+  margin: 10px 0 10px 0;
+  border-bottom: 1px solid #ebeff2;
+  padding: 19px 0;
+  text-align: center;
+  color: #59687f;
+  font-size: 19px;
+  position: relative;
+}
+.MuiCardContent-root {
+  padding: 16px;
+  padding-bottom: 0;
+}
+/*Heading Style Four*/
+.sandbox {
+  margin-bottom: 15px;
+}
+.sandbox-correct-pronounciation {
+  padding: 1em 0 1em 0;
+  background-color: rgb(33 56 111);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.heading-correct-pronounciation {
+  margin: auto;
+  text-align: center;
+  position: relative;
+}
+
+h5 {
+  font-family: "Cardo", serif;
+  font-size: 1.5em;
+  font-weight: normal;
+  font-style: italic;
+  letter-spacing: 0.1em;
+  line-height: 2.2em;
+  color: #fff;
+}
+
+em {
+  font-family: "EB Garamond", serif;
+  font-size: 3.5em;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  display: block;
+  font-style: normal;
+  padding-top: 0.1em;
+  text-shadow: 0.07em 0.07em 0 rgba(0, 0, 0, 0.1);
+}
+
+.bottom {
+  font-size: 1.5em;
+  letter-spacing: 0.07em;
+  font-size: 1em;
+  display: block;
+}
+ .match-date {
+  font-size: 12px;
+  line-height: 34px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  position: absolute;
+  top: 0px;
+  right: 0;
+  font-weight: 700;
+  color: #fff;
+  background: linear-gradient(to right, #58ade3, #327dc0);
+
+  padding: 0 14px;
+  height: 34px;
+}
+.match-status{
+  font-size: 12px;
+  line-height: 34px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  width: 100%;
+  font-weight: 700;
+  color: #fff;
+  padding: 0 14px;
+  background: #39274f;
+}
+ .show-button {
+  font-weight: 700;
+  padding: 8px 20px 8px 21px;
+  text-align: center;
+  text-transform: uppercase;
+  background: linear-gradient(to right, #f7b733, #b58903);
+  color: #fff;
+  border: 3px solid #eee;
+  margin-bottom: 25px;
+  outline-style: none !important;
+}
+
+.popup {
+  width: 600px;
+  height: auto;
+  padding: 25px;
+  padding-bottom: 0;
+}
+.content{
+  text-align: center;
+}
+.popup p {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin: 10px 0 10px 0;
+  border-bottom: 1px solid #ebeff2;
+  padding: 0 0 20px 1px;
+  text-align: center;
+  color: #59687f;
+  font-size: 19px;
+  position: relative;
+}
+.btn-close{
+  font-weight: 700;
+  color: #fff !important;
+  background: linear-gradient(to right, #58ade3, #327dc0);
+  text-align: center;
+  padding: 5px 39px 5px 39px;
+  margin-bottom: 15px;
+}
+.description{
+  border: 1px solid #ebeff2;
+  border-radius: 5px;
+  padding: 20px 0px;
+  margin: 10px 20px;
+  font-size: 16px;
+  color: rgb(27 63 93);
+  font-weight: 600;
+  overflow: auto;
+}
+@media (max-width: 700px) {
+  em {
+    font-size: 1.5em;
+
+    line-height: 15px;
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+  .popup{
+    width: 100%;
   }
 }

@@ -1,25 +1,39 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { useEffect ,useState} from "react";
+import "bootstrap/dist/css/bootstrap.css";
+import { fetchMatches } from "./api/api";
+import Navbar from "./components/Navbar";
+import MyCard from "./components/Mycard";
+
+import "./App.css";
+
 
 function App() {
+
+  const [matches, setMatches] = useState([]);
+
+
+
+  useEffect(() => {
+    fetchMatches()
+      .then((data) => {
+        console.log(data);
+        setMatches(data.matches)
+      })
+      .catch((error) => alert(error));
+  }, []);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Navbar />
+     <div className='container-fluid'>
+    <div className='row'>
+    
+    { matches.map((item,i) => (  <MyCard key ={i} {...item}/>  )) }
+     </div>
+     </div>
+    
+   
+    </>
   );
 }
 
